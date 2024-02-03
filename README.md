@@ -34,7 +34,7 @@ Here is a little preview of the main feature, the swiping through other dogs' pr
 
 Here is a simple flow for the user experience on PawfectMatch:
 
-![User Experience on PawfectMatch](https://github.com/yassminee00/pawfectmatch/assets/142147424/5bb006bf-9606-4bfe-b85f-e845649d5e41))
+![User Experience on PawfectMatch](https://github.com/yassminee00/pawfectmatch/assets/142147424/5bb006bf-9606-4bfe-b85f-e845649d5e41)
 
 ## Run PawfectMatch with Vue-CLI
 Installing the programs necessary to view this project is pretty simple!
@@ -60,7 +60,7 @@ When you are finished simply go back to your terminal and hit `ctrl + c` to quit
 ## Overview
 My web app is a single-page app, coded mainly in Javascript. **PawfectMatch** is front-end heavy, meaning that I focused all my time and energy on developing a simple but easy-to-use and fun app. I designed most of the User Interface, using plain CSS and some native Vue transitions and animations. I also incorporated some BootstrapVue elements which offered a simple solution for some features like image uploading.
 
-![Infrastructure of PawfectMatch](https://github.com/yassminee00/pawfectmatch/assets/142147424/ef401d42-e1f9-4acc-8dd0-19660f0c791b))
+![Infrastructure of PawfectMatch](https://github.com/yassminee00/pawfectmatch/assets/142147424/ef401d42-e1f9-4acc-8dd0-19660f0c791b)
 
 ## Vue.js
 For this project, I decided to focus on learning a new front-end framework. Following the advice of mentors and professionals, I chose to learn and use Vue.js.
