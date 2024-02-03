@@ -1,6 +1,7 @@
 # PawfectMatch ~ *Where Tail-Wagging Connections Begin!*
 
-![logo]()
+![logo](![PawfectMatch Logo](https://github.com/yassminee00/pawfectmatch/assets/142147424/caab3a8a-70cb-446e-b8b8-ba22657af39d)
+
 
 # Introduction
 
@@ -15,16 +16,16 @@ Other features include: editing the dog's profile, modifying the user settings, 
 This project is my Portfolio Project, concluding my Foundations Year at ALX.
 
 ## The Team
-I'm Yassmine, the creative mind and solo developer behind PawfectMatch. From envisioning the concept to coding every line, I am fully immersed in the journey of bringing this unique dog dating app to life. Wearing multiple hats, I handle everything from design intricacies to marketing strategies. The passion driving me is to create a fun and meaningful platform where dog owners can connect, bringing joy and companionship to our furry friends. PawfectMatch is not just a project; it's a labor of love, and I'm excited to share it with fellow dog enthusiasts.
+I'm Yassmine, the creative mind and solo developer behind PawfectMatch. From envisioning the concept to coding every line, I am fully immersed in the journey of bringing this unique dog dating app to life. Wearing multiple hats, I handle everything from design intricacies to marketing strategies. My passion drives me to create a fun and meaningful platform where dog owners can connect, bringing joy and companionship to our furry friends. PawfectMatch is not just a project; it's a labor of love, and I'm excited to share it with fellow dog enthusiasts.
 
 ## Blog posts
 After the development phase, I wrote a blog post to reflect on the PawfectMatch journey.
 
-* My article: [PawfectMatch]()
+* My article: [PawfectMatch](https://medium.com/@yassmine.elghalbzouri129/unleashing-happiness-pawfectmatch-the-dating-app-for-dogs-f7fc6997f095)
 
 # Tutorial
 
-## Take a tour of the deployed version at puppr.best
+## Take a tour of the deployed version at pawfectmatch.best
 -> [**PawfectMatch**](https://pawfectmatch.best/)
 
 Here is a little preview of the main feature, the swiping through other dogs' profiles:
@@ -33,12 +34,12 @@ Here is a little preview of the main feature, the swiping through other dogs' pr
 
 Here is a simple flow for the user experience on PawfectMatch:
 
-![user-flow]()
+![user-flow](![User Experience on PawfectMatch](https://github.com/yassminee00/pawfectmatch/assets/142147424/5bb006bf-9606-4bfe-b85f-e845649d5e41))
 
 ## Run PawfectMatch with Vue-CLI
 Installing the programs necessary to view this project is pretty simple!
 
-I'll be using [`npm`](https://www.npmjs.com/get-npm) to install Vue and Vue-CLI. First clone this repo, then navigate to the root and [install Vue](https://vuejs.org/v2/guide/installation.html) by executing this command:
+I'll be using [`npm`](https://www.npmjs.com/get-npm) to install Vue and Vue-CLI. First, clone this repo, then navigate to the root and [install Vue](https://vuejs.org/v2/guide/installation.html) by executing this command:
 `pawfectmatch$ npm install vue`
 
 Once that has finished, [install Vue-CLI](https://cli.vuejs.org/guide/installation.html) with this command:
@@ -57,9 +58,9 @@ When you are finished simply go back to your terminal and hit `ctrl + c` to quit
 # Architecture
 
 ## Overview
-My web app is a single-page app, coded mainly in Javascript. **PawfectMatch** is front-end heavy, meaning that I focused all my time and energy in developping a simple but easy to use and fun app. I designed most of the User Interface, using plain CSS and some native Vue transitions and animations. I also incorporated some BootstrapVue elements which offered a simple solution for some features like image uploading.
+My web app is a single-page app, coded mainly in Javascript. **PawfectMatch** is front-end heavy, meaning that I focused all my time and energy on developing a simple but easy-to-use and fun app. I designed most of the User Interface, using plain CSS and some native Vue transitions and animations. I also incorporated some BootstrapVue elements which offered a simple solution for some features like image uploading.
 
-![infra]()
+![infra](![Infrastructure of PawfectMatch](https://github.com/yassminee00/pawfectmatch/assets/142147424/ef401d42-e1f9-4acc-8dd0-19660f0c791b))
 
 ## Vue.js
 For this project, I decided to focus on learning a new front-end framework. Following the advice of mentors and professionals, I chose to learn and use Vue.js.
@@ -68,9 +69,9 @@ Every different section of the app is a Vue component, and all the components ca
 
 All the components are linked together thanks to a VueRouter instance, defined in [index.js](./routes/index.js). Each component is linked to a route, which path is appended automatically at the end of our URL.
 
-The [main.js](./src/main.js) file contains the instanciation of the Vue for the entire app, as well as the config options, database session and authentication session.
+The [main.js](./src/main.js) file contains the instanciation of the Vue for the entire app, as well as the config options, database session, and authentication session.
 
-Another interesting point about Vue.js is that it allowed me to use a store, defined in [store.js](./src/store.js). This store is a front-end store that keep strack of the state of components and data throughout the app. This is where the data from my database requests is stored and updated before going back in the database. This store also allows to not pass props from each component to all its children components, and to access data from anywhere without having to use an event bus.
+Another interesting point about Vue.js is that it allowed me to use a store, defined in [store.js](./src/store.js). This store is a front-end store that keeps track of the state of components and data throughout the app. This is where the data from my database requests is stored and updated before going back into the database. This store also allows to not pass props from each component to all its children components and to access data from anywhere without having to use an event bus.
 
 ### List of components
 
@@ -81,11 +82,11 @@ These components make up what a user experiences when they check out **PawfectMa
 | [Landing.vue](./src/components/Landing.vue) | The landing page a user sees when they navigate to **PawfectMatch**. |
 | [Login.vue](./src/components/Login.vue)   | The login page. There's a link to go to the Signup page if a user hasn't signed up. |
 | [Matches.vue](./src/components/Matches.vue) | Page where users can see the other users they've matched with. A match occurs when two users have liked each other. |
-| [Navbar.vue](./src/components/Navbar.vue) | The navigation bar that appears at the top of most every other component |
+| [Navbar.vue](./src/components/Navbar.vue) | The navigation bar that appears at the top of almost every other component |
 | [Settings.vue](./src/components/Settings.vue) | Users can change their email address, display name, city, and zip code on this page. |
 | [Signup.vue](./src/components/Signup.vue) | Signup page for users who do not have an account. It asks for a valid email address and for them to make and confirm a password. |
 | [Swiping.vue](./src/components/Swiping.vue) | The main page of **PawfectMatch** where users can see another user's profile and choose whether to 'like' or 'pass.' |
-| [UserProfile.vue](./src/components/UserProfile.vue) | Similar to Settings.vue, on this page the user can change their dog's information including likes, dislikes, and fun facts. |
+| [UserProfile.vue](./src/components/UserProfile.vue) | Similar to Settings.vue, on this page, the user can change their dog's information including likes, dislikes, and fun facts. |
 
 ## Firebase
 I decided to go with Firebase for the backend/database as it provides all the functionality I need to develop this project such as authentication, database storage, and cloud storage. As a non-relational database, it made calling any required information simple.
@@ -95,21 +96,23 @@ Firebase was incredibly helpful while I was testing as it allowed me to look thr
 ### Firestore
 Since my app requires frequent and numerous database calls, Firestore provides a reliable and responsive solution to achieve a seamless experience. Practically all user information, such as display name, dog info, and even their like/match lists are kept in the Firestore. This lets me quickly populate each vue with relevant information.
 
-For instance, when a user logs in they'll be taken to the main [Swiping](./src/components/Swiping.vue) component where another user's image, dog name, age, and location will be dispalyed. They can choose to 'like' or 'pass' the dog, which will immediately populate with another dog's information. Firebase's quick database calls populate this information and help keep this functionality snappy.
+For instance, when a user logs in they'll be taken to the main [Swiping](./src/components/Swiping.vue) component where another user's image, dog name, age, and location will be displayed. They can choose to 'like' or 'pass' the dog, which will immediately populate with another dog's information. Firebase's quick database calls populate this information and help keep this functionality snappy.
 
 Images are kept in the Firestore as a link to where they're held in cloud storage. 
+
 ### Authentication
 As my app connects people and their dogs, authentication is a necessity. Firebase provides a straightforward and easy-to-implement solution so I can focus on designing an accessible app. Users simply sign up with an existing email address and a password of their choice. Firebase Authentication does the heavy lifting to make sure users are authentic.
+
 ### Cloud Firestore
-The obvious choice for storing users' dog photos. It provides straightforward implementation for users to upload their photo and a relatively quick way to call and display these images for users to sift through.
+The obvious choice for storing users' dog photos. It provides a straightforward implementation for users to upload their photos and a relatively quick way to call and display these images for users to sift through.
 
 # Acknowledgments
 
-* Holberton School staff - For the help, advice and resources they provided me with during this project and during all the curriculum.
+* Holberton School staff - For the help, advice, and resources they provided me with during this project and the curriculum.
 
-* Cohort 16 and all Holberton students - For your friendship, invaluable support, and insight not only for this project, but over the previous projects.
+* Cohort 16 and all Holberton students - For your friendship, invaluable support, and insight not only for this project but over the previous projects.
 
-* My dogs, and also my friends' dog - For the inspiration, courage and love they brought me when I was working hard and tired.
+* My dogs, and also my friends' dogs - For the inspiration, courage, and love they brought me when I was working hard and tired.
 
 * YOU - For reading this documentation and testing out **PawfectMatch**. I hope you enjoyed the ride!
 
