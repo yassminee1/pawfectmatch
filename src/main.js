@@ -16,7 +16,6 @@ Vue.config.productionTip = false;
 const firebaseConfig = {
   apiKey: "AIzaSyByaInNCvsyQR_WUFeIIxO5uy1Ve7uY1kU",
   authDomain: "pawfectmatch-16917.firebaseapp.com",
-  databaseURL: "https://pawfectmatch-16917.firebaseio.com/",
   projectId: "pawfectmatch-16917",
   storageBucket: "pawfectmatch-16917.appspot.com",
   messagingSenderId: "104404759553",
