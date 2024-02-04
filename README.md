@@ -8,7 +8,7 @@
 ## The Project
 Every dog owner knows the struggle of moving to a new place and not knowing anyone else with a dog. However, dogs need to socialize too! This is why I created **PawfectMatch**.
 
-[**PawfectMatch**](https://pawfectmatch.best/) is a dating site for dogs! Dog owners can create a profile for their pup, and start swiping through other dogs in their area. If they want to meet a dog, they can "like" their profile, and if that dog likes them back, it's a match! From there, the two users can decide to contact each other and organize a playdate for their dogs. If they don't like that dog, they can just "pass" it.
+PawfectMatch is a dating site for dogs! Dog owners can create a profile for their paws, and start swiping through other dogs in their area. If they want to meet a dog, they can "like" their profile, and if that dog likes them back, it's a match! From there, the two users can decide to contact each other and organize a playdate for their dogs. If they don't like that dog, they can just "pass" it.
 
 Other features include: editing the dog's profile, modifying the user settings, and a "previous" button to see the previous profile again.
 
@@ -24,13 +24,6 @@ After the development phase, I wrote a blog post to reflect on the PawfectMatch 
 * My article: [PawfectMatch](https://medium.com/@yassmine.elghalbzouri129/unleashing-happiness-pawfectmatch-the-dating-app-for-dogs-f7fc6997f095)
 
 # Tutorial
-
-## Take a tour of the deployed version at pawfectmatch.best
--> [**PawfectMatch**](https://pawfectmatch.best/)
-
-Here is a little preview of the main feature, the swiping through other dogs' profiles:
-
-![swiping](./public/icons/browse_no_text.png)
 
 Here is a simple flow for the user experience on PawfectMatch:
 
