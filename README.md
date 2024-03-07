@@ -27,7 +27,7 @@ After the development phase, I wrote a blog post to reflect on the PawfectMatch 
 
 Here is a simple flow for the user experience on PawfectMatch:
 
-![User Experience on PawfectMatch](https://github.com/yassminee00/pawfectmatch/assets/142147424/bd772428-74cd-4ac1-a604-cf0fc2d8886f)
+![User Experience on PawfectMatch](https://github.com/yassminee00/pawfectmatch/assets/142147424/505b6655-3b1f-4f84-beac-58e903d2a462)
 
 
 ## Run PawfectMatch with Vue-CLI
