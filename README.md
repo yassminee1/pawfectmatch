@@ -46,7 +46,7 @@ Once this is all done you're ready to run **PawfectMatch*! Still in the root of 
 When you are finished simply go back to your terminal and hit `ctrl + c` to quit the program.
 
 ## Known issues
-* Some transitions are not as fluid as expected, and due to API calls lag can be a bit off.
+* Some transitions are not as fluid as expected, and due to API calls log can be a bit off.
 * Issue when viewing on mobile. Many of the assets become squished vertically.
 
 # Architecture
